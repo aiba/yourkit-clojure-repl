@@ -46,7 +46,7 @@ Now you can use this handy macro for profiling:
 
 Example:
 
-```
+```clj
 (with-cpu-profiling :trace
     (reduce + (range 1e5)))
 ```
