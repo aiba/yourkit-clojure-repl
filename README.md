@@ -1,6 +1,5 @@
-clojure-yourkit
 
-How I use YourKit with Clojure:
+YourKit from the Clojure REPL:
 
 I don't always want YourKit profiling enabled, so I have a `:perf` profile that
 boots with YourKit. My `project.clj` looks like this. (Note this assumes OSX. You
